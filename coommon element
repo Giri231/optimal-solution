@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   int n;
+   cin>>n;
+   int a[n],a1[n];
+   
+   unordered_map<int,int>m;
+   for(int i=0;i<n;i++)
+   {
+       cin>>a[i];
+       m[a[i]]++;
+       
+   }
+   for(int i=0;i<n;i++)
+   {
+       cin>>a1[i];
+       if(m.find(a1[i])!=m.end()){
+           cout<<a1[i]<<endl;
+           
+           m.erase(a1[i]);
+       }
+   }
+    
+}
