@@ -1,0 +1,60 @@
+#include<iostream>
+
+using namespace std;
+
+class Car{
+    public:
+    string brand;
+    string model;
+    int year;
+};
+
+int main()
+{
+    Car myobj1;
+    myobj1.brand="BHw";
+    myobj1.model="X5";
+    myobj1.year=1999;
+    
+    //create another object of  car 
+    Car myobj2;
+    myobj2.brand="ford";
+    myobj2.model="mustang";
+    myobj2.year=1;
+    
+    //print attribute values
+    
+    cout<<myobj1.brand<<" "<<myobj1.model<<" "<<myobj1.year<<"\n";
+    cout<<myobj2.brand<<" "<<myobj2.model<<" "<<myobj2.year<<"\n";
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
