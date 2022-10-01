@@ -25,12 +25,12 @@ class derived :public base{
 };
 int main()
 {
-    base *bptr;
+    base *myobj;
     derived d;
-    bptr =&d;
+    myobj =&d;
     
-    bptr->print();
-    bptr->show();
+    myobj->print();
+    myobj->show();
     
     return 0;
 }
